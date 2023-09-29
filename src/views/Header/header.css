@@ -1,0 +1,49 @@
+@import "../../utils/colorCodes.css";
+.header-container {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  background-color: white !important;
+}
+
+.header-logo {
+  height: 90%;
+  width: 90%;
+}
+
+.header-desktop-logo {
+  width: 10% !important;
+  height: 90%;
+  cursor: pointer;
+}
+
+.header-desktop-navigation {
+  width: 60% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: var(--app-fontColor) !important; */
+}
+
+.header-desktop-menu {
+  width: 10% !important;
+}
+
+.header-desktop-navigation-button {
+  color: var(--app-fontColor) !important;
+}
+
+.header-mobile-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.header-lang {
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+}
