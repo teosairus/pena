@@ -1,0 +1,12 @@
+.office-container {
+  width: 100%;
+}
+
+.office-subtitle {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.office-subtitle-text {
+  margin: 0 0 1rem 0;
+}

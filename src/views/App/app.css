@@ -5,9 +5,11 @@
   /* flex-direction: row; */
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
 }
 
 .app-main {
   /* margin-top: 60px; */
   display: flex;
+  width: 100%;
 }

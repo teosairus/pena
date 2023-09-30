@@ -5,11 +5,13 @@ import "./home.css";
 
 function Home() {
   return (
-    <Grid container className="home-container" spacing={3}>
-      <Grid item xs={12}>
-        <Container maxWidth="xl">ΑΝΑΓΝΩΣΤΗΡΙΟ</Container>
-      </Grid>
-    </Grid>
+    <div className="home-container">
+      <Container maxWidth="xl">
+        <Grid container spacing={3}>
+          Home
+        </Grid>
+      </Container>
+    </div>
   );
 }
 export default Home;
