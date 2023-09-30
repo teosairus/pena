@@ -1,0 +1,24 @@
+.contactMap-container {
+  width: 100%;
+}
+
+.contactMap-subtitle {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.contactMap-subtitle-text {
+  margin: 0 0 1rem 0;
+}
+
+.contactMap-link-container {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.contactMap-link {
+  color: #4d897f;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
