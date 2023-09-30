@@ -1,8 +1,15 @@
-import { useState } from "react";
-
+// import { useState } from "react";
+import Grid from "@mui/material/Grid";
+import Container from "@mui/material/Container";
 import "./home.css";
 
 function Home() {
-  return <div className="home-container">Home</div>;
+  return (
+    <Grid container className="home-container" spacing={3}>
+      <Grid item xs={12}>
+        <Container maxWidth="xl">ΑΝΑΓΝΩΣΤΗΡΙΟ</Container>
+      </Grid>
+    </Grid>
+  );
 }
 export default Home;

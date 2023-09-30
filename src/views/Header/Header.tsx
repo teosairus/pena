@@ -22,7 +22,7 @@ function Header() {
   };
 
   const navigate = useNavigate();
-  const pages = ["Αρχική", "Μαθήματα", "Σχετικά με μας", "Επικοινωνία"];
+  const pages = ["Αρχικη", "Μαθηματα", "Σχετικα με μας", "Επικοινωνια"];
 
   const handleCloseNavMenu = (index: number) => {
     setAnchorElNav(null);

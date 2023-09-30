@@ -1,13 +1,188 @@
+@font-face {
+  font-family: "PF Baseline Pro Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/logo/PFBaselinePro-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PF Baseline Pro ExtraThin";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/logo/PFBaselinePro-ExtraThin.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PF Baseline Pro Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/logo/PFBaselinePro-Thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PF Baseline Pro Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/logo/PFBaselinePro-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PF Baseline Pro Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/logo/PFBaselinePro-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PF Baseline Pro Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/logo/PFBaselinePro-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Montserrat-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Montserrat-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Montserrat-Thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat Thin Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Montserrat-ThinItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat ExtraLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Montserrat-ExtraLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat ExtraLight Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Montserrat-ExtraLightItalic.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Montserrat-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat Light Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Montserrat-LightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Montserrat-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat Medium Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Montserrat-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat SemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Montserrat-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat SemiBold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Montserrat-SemiBoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Montserrat-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Montserrat-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Montserrat-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat ExtraBold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Montserrat-ExtraBoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat Black";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Montserrat-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat Black Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Montserrat-BlackItalic.woff") format("woff");
+}
+
+* {
+  font-family: "Montserrat Regular", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif !important;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Montserrat Regular", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

@@ -1,8 +1,15 @@
-import { useState } from "react";
-
+// import { useState } from "react";
+import Grid from "@mui/material/Grid";
+import Container from "@mui/material/Container";
 import "./notFound.css";
 
 function NotFound() {
-  return <div className="notFound-container">There's nothing here: 404!</div>;
+  return (
+    <Grid container className="notFound-container" spacing={3}>
+      <Grid item xs={12}>
+        <Container maxWidth="xl">notFound</Container>
+      </Grid>
+    </Grid>
+  );
 }
 export default NotFound;
