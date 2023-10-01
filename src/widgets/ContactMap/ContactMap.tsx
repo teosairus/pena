@@ -32,18 +32,7 @@ function ContactMap() {
         </span>
       </Grid>
 
-      {/* Xartis  */}
       <Grid item xs={12} sm={6}>
-        {/* <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12082.821066360162!2d22.418087!3d40.7904933!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf87581c6600007dc!2sMr%20BUNNY%20coffee%20%26%20more..!5e0!3m2!1sen!2sgr!4v1673473010860!5m2!1sen!2sgr"
-          // frameborder="0"
-          title="pena-map"
-          style={{ border: 0 }}
-          // allowfullscreen
-          loading="lazy"
-          // referrerpolicy="no-referrer-when-downgrade"
-        ></iframe> */}
-
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.620633810319!2d22.409849477130305!3d40.79235363269098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1357cfea738daa49%3A0x98bafe38e2ab6300!2zUHJvamVjdCDOoM6tzr3OsQ!5e0!3m2!1sel!2sgr!4v1696111477198!5m2!1sel!2sgr"
           width="100%"
@@ -55,7 +44,6 @@ function ContactMap() {
         ></iframe>
       </Grid>
 
-      {/* Plirofories grafeiou  */}
       <Grid item xs={12} sm={6}>
         <div>
           <h2 className="">ΒΡΕΙΤΕ ΜΑΣ</h2>
