@@ -1,5 +1,5 @@
 // import { useState } from "react";
-import Grid from "@mui/material/Grid";
+import Grid from "@mui/material/Unstable_Grid2";
 import Container from "@mui/material/Container";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -44,11 +44,11 @@ function Team() {
   ];
 
   return (
-    <>
-      <Grid item xs={12}>
+    <Grid container spacing={3}>
+      <Grid xs={12}>
         <h2>Η ομάδα μας</h2>
       </Grid>
-      <Grid item xs={12} className="team-subtitle">
+      <Grid xs={12} className="team-subtitle">
         <span className="team-subtitle-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar
@@ -69,7 +69,7 @@ function Team() {
       </Grid>
       {people.map((person) => {
         return (
-          <Grid item key={person.name} xs={12} sm={6} md={6} lg={3}>
+          <Grid key={person.name} xs={12} sm={6} md={6} lg={3}>
             <div className="team">
               <div className="picture">
                 <img
@@ -130,7 +130,7 @@ function Team() {
           </Grid>
         );
       })}
-    </>
+    </Grid>
   );
 }
 export default Team;

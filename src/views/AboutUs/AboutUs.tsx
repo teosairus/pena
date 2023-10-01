@@ -1,5 +1,4 @@
 // import { useState } from "react";
-import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import Team from "../../widgets/Team";
 import "./aboutUs.css";
@@ -10,17 +9,16 @@ function AboutUs() {
     <div className="aboutUs-container">
       <div className="aboutUs-team">
         <Container maxWidth="xl">
-          <Grid container spacing={3}>
-            <Team />
-          </Grid>
+          <Team />
         </Container>
       </div>
       <div className="aboutUs-office">
         <Container maxWidth="xl">
-          <Grid container spacing={3}>
-            <Office />
-          </Grid>
+          <Office />
         </Container>
+      </div>
+      <div className="aboutUs-team-full">
+        <span>Our Lovely Team</span>
       </div>
     </div>
   );

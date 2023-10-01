@@ -1,5 +1,5 @@
 // import { useState } from "react";
-import Grid from "@mui/material/Grid";
+import Grid from "@mui/material/Unstable_Grid2";
 import PlaceIcon from "@mui/icons-material/Place";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import EmailIcon from "@mui/icons-material/Email";
@@ -8,11 +8,11 @@ import "./contactMap.css";
 
 function ContactMap() {
   return (
-    <>
-      <Grid item xs={12}>
+    <Grid container spacing={3}>
+      <Grid xs={12}>
         <h2>Επικοινωνήστε μαζί μας</h2>
       </Grid>
-      <Grid item xs={12} className="contactMap-subtitle">
+      <Grid xs={12} className="contactMap-subtitle">
         <span className="contactMap-subtitle-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar
@@ -32,7 +32,7 @@ function ContactMap() {
         </span>
       </Grid>
 
-      <Grid item xs={12} sm={6}>
+      <Grid xs={12} sm={6}>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.620633810319!2d22.409849477130305!3d40.79235363269098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1357cfea738daa49%3A0x98bafe38e2ab6300!2zUHJvamVjdCDOoM6tzr3OsQ!5e0!3m2!1sel!2sgr!4v1696111477198!5m2!1sel!2sgr"
           width="100%"
@@ -44,7 +44,7 @@ function ContactMap() {
         ></iframe>
       </Grid>
 
-      <Grid item xs={12} sm={6}>
+      <Grid xs={12} sm={6}>
         <div>
           <h2 className="">ΒΡΕΙΤΕ ΜΑΣ</h2>
           <div className="contactMap-link-container">
@@ -82,7 +82,7 @@ function ContactMap() {
           </div>
         </div>
       </Grid>
-    </>
+    </Grid>
   );
 }
 export default ContactMap;

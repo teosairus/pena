@@ -1,16 +1,15 @@
 // import { useState } from "react";
-import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 
 import "./courses.css";
 
 function Courses() {
   return (
-    <Grid container className="courses-container" spacing={3}>
-      <Grid item xs={12}>
+    <div className="courses-container">
+      <div className="courses-test">
         <Container maxWidth="xl">Courses</Container>
-      </Grid>
-    </Grid>
+      </div>
+    </div>
   );
 }
 export default Courses;

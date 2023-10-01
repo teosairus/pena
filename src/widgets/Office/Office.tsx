@@ -1,15 +1,17 @@
 // import { useState } from "react";
-import Grid from "@mui/material/Grid";
-
+import Grid from "@mui/material/Unstable_Grid2";
+import office1 from "../../assets/images/office1.jpg";
+import office2 from "../../assets/images/office2.jpg";
+import office3 from "../../assets/images/office3.jpg";
 import "./office.css";
 
 function Office() {
   return (
-    <>
-      <Grid item xs={12}>
+    <Grid container spacing={3}>
+      <Grid xs={12}>
         <h2>Ο χώρος μας</h2>
       </Grid>
-      <Grid item xs={12} className="office-subtitle">
+      <Grid xs={12} className="office-subtitle">
         <span className="office-subtitle-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar
@@ -29,8 +31,10 @@ function Office() {
         </span>
       </Grid>
       {/* Photo 1 */}
-      <Grid className="office-image1" item xs={12} sm={6}></Grid>
-      <Grid className="office-text" item xs={12} sm={6}>
+      <Grid className="office-image-container" xs={12} sm={6}>
+        <img className="office-image" src={office1} alt="office-1" />
+      </Grid>
+      <Grid className="office-text" xs={12} sm={6}>
         <span className="office-text-font">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar
@@ -41,7 +45,7 @@ function Office() {
         </span>
       </Grid>
       {/* Photo2 */}
-      <Grid className="office-text" item xs={12} sm={6}>
+      <Grid className="office-text" xs={12} sm={6}>
         <span className="office-text-font">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar
@@ -51,11 +55,15 @@ function Office() {
           Quisque sagittis purus sit amet.
         </span>
       </Grid>
-      <Grid className="office-image2" item xs={12} sm={6}></Grid>
+      <Grid className="office-container" xs={12} sm={6}>
+        <img className="office-image" src={office2} alt="office-2" />
+      </Grid>
 
       {/* Photo 3 */}
-      <Grid className="office-image3" item xs={12} sm={6}></Grid>
-      <Grid className="office-text" item xs={12} sm={6}>
+      <Grid className="office-image-container" xs={12} sm={6}>
+        <img className="office-image" src={office3} alt="office-3" />
+      </Grid>
+      <Grid className="office-text" xs={12} sm={6}>
         <span className="office-text-font">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar
@@ -65,7 +73,7 @@ function Office() {
           Quisque sagittis purus sit amet.
         </span>
       </Grid>
-    </>
+    </Grid>
   );
 }
 export default Office;

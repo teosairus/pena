@@ -4,12 +4,12 @@ import { Routes, Route } from "react-router-dom";
 import Header from "../Header";
 import Home from "../Home";
 import AboutUs from "../AboutUs";
-
-import "./app.css";
 import Contact from "../Contact";
 import Courses from "../Courses";
 import NotFound from "../NotFound";
 import Footer from "../Footer";
+
+import "./app.css";
 
 function App() {
   return (
