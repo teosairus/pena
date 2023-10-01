@@ -28,6 +28,43 @@ function Office() {
           suspendisse ultrices gravida.
         </span>
       </Grid>
+      {/* Photo 1 */}
+      <Grid className="office-image1" item xs={12} sm={6}></Grid>
+      <Grid className="office-text" item xs={12} sm={6}>
+        <span className="office-text-font">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar
+          etiam non quam lacus suspendisse faucibus. Id diam maecenas ultricies
+          mi eget mauris pharetra et. Praesent semper feugiat nibh sed pulvinar
+          proin gravida hendrerit lectus. Tincidunt arcu non sodales neque.
+          Quisque sagittis purus sit amet.
+        </span>
+      </Grid>
+      {/* Photo2 */}
+      <Grid className="office-text" item xs={12} sm={6}>
+        <span className="office-text-font">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar
+          etiam non quam lacus suspendisse faucibus. Id diam maecenas ultricies
+          mi eget mauris pharetra et. Praesent semper feugiat nibh sed pulvinar
+          proin gravida hendrerit lectus. Tincidunt arcu non sodales neque.
+          Quisque sagittis purus sit amet.
+        </span>
+      </Grid>
+      <Grid className="office-image2" item xs={12} sm={6}></Grid>
+
+      {/* Photo 3 */}
+      <Grid className="office-image3" item xs={12} sm={6}></Grid>
+      <Grid className="office-text" item xs={12} sm={6}>
+        <span className="office-text-font">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar
+          etiam non quam lacus suspendisse faucibus. Id diam maecenas ultricies
+          mi eget mauris pharetra et. Praesent semper feugiat nibh sed pulvinar
+          proin gravida hendrerit lectus. Tincidunt arcu non sodales neque.
+          Quisque sagittis purus sit amet.
+        </span>
+      </Grid>
     </>
   );
 }

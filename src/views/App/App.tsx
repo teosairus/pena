@@ -9,6 +9,7 @@ import "./app.css";
 import Contact from "../Contact";
 import Courses from "../Courses";
 import NotFound from "../NotFound";
+import Footer from "../Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
+      <Footer />
     </div>
   );
 }
