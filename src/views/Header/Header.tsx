@@ -43,7 +43,7 @@ function Header() {
   //   const navigate = useNavigate();
 
   return (
-    <AppBar position="static" className="header-container">
+    <AppBar position="fixed" className="header-container">
       <Container maxWidth="xl" sx={{ width: 1, height: 1 }}>
         <Toolbar disableGutters sx={{ width: 1, height: 1 }}>
           {/* Mobile */}
