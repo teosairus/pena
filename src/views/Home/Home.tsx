@@ -24,6 +24,8 @@ function Home() {
       originalClass: "home-carousel-img",
     },
   ];
+
+  console.log("test");
   return (
     <section className="home-container">
       <div className="home-carousel">
