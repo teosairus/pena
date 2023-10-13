@@ -25,7 +25,6 @@ function Home() {
     },
   ];
 
-  console.log("test");
   return (
     <section className="home-container">
       <div className="home-carousel">
