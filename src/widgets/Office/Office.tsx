@@ -45,6 +45,15 @@ function Office() {
         </span>
       </Grid>
       {/* Photo2 */}
+      <Grid
+        className="office-container"
+        xs={12}
+        sx={{
+          display: { xs: "flex", sm: "none" },
+        }}
+      >
+        <img className="office-image" src={office2} alt="office-2a" />
+      </Grid>
       <Grid className="office-text" xs={12} sm={6}>
         <span className="office-text-font">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -55,7 +64,14 @@ function Office() {
           Quisque sagittis purus sit amet.
         </span>
       </Grid>
-      <Grid className="office-container" xs={12} sm={6}>
+      <Grid
+        className="office-container"
+        xs={12}
+        sm={6}
+        sx={{
+          display: { xs: "none", sm: "flex" },
+        }}
+      >
         <img className="office-image" src={office2} alt="office-2" />
       </Grid>
 
