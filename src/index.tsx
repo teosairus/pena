@@ -102,10 +102,11 @@ const theme = createTheme({
           letterSpacing: "0.15px",
         },
         outlinedPrimary: {
-          color: "#4a4d57",
-          borderColor: "#4a4d57",
+          backgroundColor: "#4d897f",
+          color: "#ffffff",
+          borderColor: "#4d897f",
           "&:hover": {
-            backgroundColor: "#4a4d57",
+            backgroundColor: "#3f5e58",
             color: "#fff",
           },
         },
