@@ -18,7 +18,7 @@
 }
 
 .contactMap-link {
-  color: #4d897f;
+  color: var(--app-fontColor-light);
   text-decoration: none;
   margin: 0 0.5rem;
 }

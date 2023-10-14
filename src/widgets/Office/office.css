@@ -11,31 +11,7 @@
   margin: 0 0 1rem 0;
 }
 
-/* .office-image1 {
-  min-height: 300px !important;
-  background-image: url("../../assets/images/office1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.office-image2 {
-  min-height: 300px !important;
-  background-image: url("../../assets/images/office2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.office-image3 {
-  min-height: 300px !important;
-  background-image: url("../../assets/images/office3.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-} */
-
-.office-text {
+/.office-text {
   width: 100%;
   min-height: 300px !important;
   display: flex;

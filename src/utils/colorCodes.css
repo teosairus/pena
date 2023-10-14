@@ -3,58 +3,29 @@
   --secondary-color: #3f5e58;
   --third-color: #d9d9d9;
   --fourth-color: #353535;
+  --fifth-color: #3d8577;
+  --sixth-color: #ffffff;
 
-  --app-backgroundColor: #f7f5e9;
-  --app-fontColor: #4a4d57;
+  --app-fontColor-dark: #4a4d57;
+  --app-fontColor-light: #ffffff;
   --app-headerColor: #a07d52;
+
+  --home-bg1: var(--fourth-color);
+
+  --notFound-bg: var(--fourth-color);
+
+  --header-bg: var(--sixth-color);
+
+  --footer-bg: var(--fifth-color);
+
+  --courses-bg1: var(--fourth-color);
+
+  --contact-bg1: var(--fourth-color);
+
+  --about-us-bg1: var(--fifth-color);
+  --about-us-bg2: var(--third-color);
+  --team-bg: var(--fourth-color);
 
   --shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-
-  --navigationBar-hover: #e9ecef;
-
-  --titleColor: #a07d52;
-  --titleDivider: #a07d52;
-
-  --descriptionColor: #4a4d57;
-
-  --formBackground: #ffffff;
-  --formShadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-
-  --borderColor: #cbcbcb;
-
-  --errorLoginColor: #d80600;
-
-  --header-item-active: #e22b27;
-
-  --buttonBackgroundColor: #4a4d57;
-  --buttonFontColor: #ffffff;
-  --buttonBackgroundColorHover: #e22b27;
-  --buttonShadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
-    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-  --buttonDisabledBackground: #cccccc;
-
-  --iconButtonColor: #000000;
-
-  --tableHeaderBackground: #000000;
-  --tableHeaderFont: #ffffff;
-
-  --tableBackground: #ffffff;
-  --tableFont: #4a4d57;
-  --tableDivider: #cbcbcb;
-
-  --paginationBackground: #ffffff;
-
-  --mobile-header-collapse-background: #fff4db;
-
-  --datePicker-background: #ffffff;
-  --dailyCourse-error: #d80600;
-
-  --loaderColor: #000000;
-
-  --tripsBackgroundColor: #eeeeee;
-
-  --resPerCourserRowColor: #e9ecef;
 }

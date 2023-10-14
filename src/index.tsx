@@ -23,8 +23,8 @@ const theme = createTheme({
   },
   palette: {
     primary: {
-      main: "#00539B",
-      dark: "#00396A",
+      main: "#4d897f",
+      dark: "#3f5e58",
       // light: will be calculated from palette.primary.main,
       // dark: will be calculated from palette.primary.main,
       // contrastText: will be calculated to contrast with palette.primary.main
@@ -74,31 +74,25 @@ const theme = createTheme({
         },
       },
     },
+    MuiSvgIcon: {
+      styleOverrides: {
+        root: {
+          fill: "#4d897f",
+        },
+      },
+    },
     MuiMenuItem: {
       styleOverrides: {
         root: {
           background: "#fff",
-          color: "#00539B",
+          color: "#4a4d57",
           fontSize: "20px",
           fontWeight: 500,
           letterSpacing: "0.15px",
         },
       },
     },
-    MuiSvgIcon: {
-      styleOverrides: {
-        root: {
-          fill: "#00539B",
-        },
-      },
-    },
-    MuiToolbar: {
-      styleOverrides: {
-        root: {
-          minHeight: "70px",
-        },
-      },
-    },
+
     MuiButton: {
       styleOverrides: {
         root: {
@@ -108,10 +102,10 @@ const theme = createTheme({
           letterSpacing: "0.15px",
         },
         outlinedPrimary: {
-          color: "#00539B",
-          borderColor: "#00539B",
+          color: "#4a4d57",
+          borderColor: "#4a4d57",
           "&:hover": {
-            backgroundColor: "#00539B",
+            backgroundColor: "#4a4d57",
             color: "#fff",
           },
         },
