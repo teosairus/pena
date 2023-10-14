@@ -55,14 +55,14 @@ const theme = createTheme({
   typography: {
     htmlFontSize: 16,
     allVariants: {
-      fontFamily: "Montserrat Regular",
+      fontFamily: "Brutel Regular",
     },
     h1: {
       fontSize: "96px",
     },
     body1: {
       fontWeight: 500,
-      fontFamily: "Montserrat Regular",
+      fontFamily: "Brutel Regular",
     },
   },
   components: {

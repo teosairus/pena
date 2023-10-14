@@ -44,42 +44,42 @@
   font-family: "Montserrat Regular";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/text/Montserrat-Regular.woff") format("woff");
+  src: url("./assets/fonts/text2/Montserrat-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "Montserrat Italic";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/text/Montserrat-Italic.woff") format("woff");
+  src: url("./assets/fonts/text2/Montserrat-Italic.woff") format("woff");
 }
 
 @font-face {
   font-family: "Montserrat Thin";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/text/Montserrat-Thin.woff") format("woff");
+  src: url("./assets/fonts/text2/Montserrat-Thin.woff") format("woff");
 }
 
 @font-face {
   font-family: "Montserrat Thin Italic";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/text/Montserrat-ThinItalic.woff") format("woff");
+  src: url("./assets/fonts/text2/Montserrat-ThinItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: "Montserrat ExtraLight";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/text/Montserrat-ExtraLight.woff") format("woff");
+  src: url("./assets/fonts/text2/Montserrat-ExtraLight.woff") format("woff");
 }
 
 @font-face {
   font-family: "Montserrat ExtraLight Italic";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/text/Montserrat-ExtraLightItalic.woff")
+  src: url("./assets/fonts/text2/Montserrat-ExtraLightItalic.woff")
     format("woff");
 }
 
@@ -87,97 +87,153 @@
   font-family: "Montserrat Light";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/text/Montserrat-Light.woff") format("woff");
+  src: url("./assets/fonts/text2/Montserrat-Light.woff") format("woff");
 }
 
 @font-face {
   font-family: "Montserrat Light Italic";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/text/Montserrat-LightItalic.woff") format("woff");
+  src: url("./assets/fonts/text2/Montserrat-LightItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: "Montserrat Medium";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/text/Montserrat-Medium.woff") format("woff");
+  src: url("./assets/fonts/text2/Montserrat-Medium.woff") format("woff");
 }
 
 @font-face {
   font-family: "Montserrat Medium Italic";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/text/Montserrat-MediumItalic.woff") format("woff");
+  src: url("./assets/fonts/text2/Montserrat-MediumItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: "Montserrat SemiBold";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/text/Montserrat-SemiBold.woff") format("woff");
+  src: url("./assets/fonts/text2/Montserrat-SemiBold.woff") format("woff");
 }
 
 @font-face {
   font-family: "Montserrat SemiBold Italic";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/text/Montserrat-SemiBoldItalic.woff") format("woff");
+  src: url("./assets/fonts/text2/Montserrat-SemiBoldItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: "Montserrat Bold";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/text/Montserrat-Bold.woff") format("woff");
+  src: url("./assets/fonts/text2/Montserrat-Bold.woff") format("woff");
 }
 
 @font-face {
   font-family: "Montserrat Bold Italic";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/text/Montserrat-BoldItalic.woff") format("woff");
+  src: url("./assets/fonts/text2/Montserrat-BoldItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: "Montserrat ExtraBold";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/text/Montserrat-ExtraBold.woff") format("woff");
+  src: url("./assets/fonts/text2/Montserrat-ExtraBold.woff") format("woff");
 }
 
 @font-face {
   font-family: "Montserrat ExtraBold Italic";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/text/Montserrat-ExtraBoldItalic.woff") format("woff");
+  src: url("./assets/fonts/text2/Montserrat-ExtraBoldItalic.woff")
+    format("woff");
 }
 
 @font-face {
   font-family: "Montserrat Black";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/text/Montserrat-Black.woff") format("woff");
+  src: url("./assets/fonts/text2/Montserrat-Black.woff") format("woff");
 }
 
 @font-face {
   font-family: "Montserrat Black Italic";
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/text/Montserrat-BlackItalic.woff") format("woff");
+  src: url("./assets/fonts/text2/Montserrat-BlackItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Brutel Black";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Brutel-Black.otf") format("otf");
+}
+@font-face {
+  font-family: "Brutel Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Brutel-Bold.otf") format("otf");
+}
+@font-face {
+  font-family: "Brutel ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Brutel-ExtraBold.otf") format("otf");
+}
+@font-face {
+  font-family: "Brutel SemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Brutel-SemiBold.otf") format("otf");
+}
+@font-face {
+  font-family: "Brutel Extra Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Brutel-ExtraLight.otf") format("otf");
+}
+@font-face {
+  font-family: "Brutel Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Brutel-Light.otf") format("otf");
+}
+@font-face {
+  font-family: "Brutel Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Brutel-Medium.otf") format("otf");
+}
+@font-face {
+  font-family: "Brutel Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Brutel-Regular.otf") format("otf");
+}
+@font-face {
+  font-family: "Brutel Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/text/Brutel-Thin.otf") format("otf");
 }
 
 * {
-  font-family: "Montserrat Regular", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif !important;
+  font-family: "Brutel Regular", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif !important;
 }
 
 body {
   margin: 0;
-  font-family: "Montserrat Regular", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Brutel Regular", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
