@@ -112,3 +112,7 @@
   color: var(--team-bg);
   background-color: var(--sixth-color);
 }
+
+.team-social-icon {
+  fill: var(--app-fontColor-light) !important;
+}

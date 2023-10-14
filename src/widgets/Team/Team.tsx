@@ -90,7 +90,7 @@ function Team() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <FacebookIcon />
+                    <FacebookIcon className="team-social-icon" />
                   </a>
                 </li>
                 <li>
@@ -100,7 +100,7 @@ function Team() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <InstagramIcon />
+                    <InstagramIcon className="team-social-icon" />
                   </a>
                 </li>
                 <li>
@@ -110,19 +110,18 @@ function Team() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <TwitterIcon />
+                    <TwitterIcon className="team-social-icon" />
                   </a>
                 </li>
 
                 <li>
                   <a
                     href={person.linkedIn}
-                    className="fa fa-linkedin"
                     aria-hidden="true"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <LinkedInIcon />
+                    <LinkedInIcon className="team-social-icon" />
                   </a>
                 </li>
               </ul>
