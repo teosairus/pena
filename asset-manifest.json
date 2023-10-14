@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pena/static/css/main.becfa97d.css",
-    "main.js": "/pena/static/js/main.c030dfe5.js",
+    "main.css": "/pena/static/css/main.b369560f.css",
+    "main.js": "/pena/static/js/main.89657807.js",
     "static/media/team2.jpg": "/pena/static/media/team2.dcb23bb3d37663368b5f.jpg",
     "static/media/office2.jpg": "/pena/static/media/office2.e5f51ead68cd38a0960f.jpg",
     "static/media/office1.jpg": "/pena/static/media/office1.5fa40144ad0ed4e1edea.jpg",
@@ -31,12 +31,21 @@
     "static/media/PFBaselinePro-Medium.woff": "/pena/static/media/PFBaselinePro-Medium.6e63a609b0f00dca1457.woff",
     "static/media/PFBaselinePro-Bold.woff": "/pena/static/media/PFBaselinePro-Bold.ea451e1624078a3bef3e.woff",
     "static/media/PFBaselinePro-ExtraThin.woff": "/pena/static/media/PFBaselinePro-ExtraThin.2b10e5848ef4290a2b6a.woff",
+    "static/media/Brutel-ExtraBold.otf": "/pena/static/media/Brutel-ExtraBold.46663996cb82a41447c4.otf",
+    "static/media/Brutel-Bold.otf": "/pena/static/media/Brutel-Bold.83bee3dbb5802c096fad.otf",
+    "static/media/Brutel-ExtraLight.otf": "/pena/static/media/Brutel-ExtraLight.8d2868ffe82da2954cad.otf",
+    "static/media/Brutel-SemiBold.otf": "/pena/static/media/Brutel-SemiBold.b5c98862cf8ef1439181.otf",
+    "static/media/Brutel-Light.otf": "/pena/static/media/Brutel-Light.33b5f39d5a25f1d3d77f.otf",
+    "static/media/Brutel-Regular.otf": "/pena/static/media/Brutel-Regular.66d1a37cf95e46283b39.otf",
+    "static/media/Brutel-Medium.otf": "/pena/static/media/Brutel-Medium.629db9a929e709535b5c.otf",
+    "static/media/Brutel-Thin.otf": "/pena/static/media/Brutel-Thin.b13f8054007275399ec5.otf",
+    "static/media/Brutel-Black.otf": "/pena/static/media/Brutel-Black.4b25eac51155580a46f0.otf",
     "index.html": "/pena/index.html",
-    "main.becfa97d.css.map": "/pena/static/css/main.becfa97d.css.map",
-    "main.c030dfe5.js.map": "/pena/static/js/main.c030dfe5.js.map"
+    "main.b369560f.css.map": "/pena/static/css/main.b369560f.css.map",
+    "main.89657807.js.map": "/pena/static/js/main.89657807.js.map"
   },
   "entrypoints": [
-    "static/css/main.becfa97d.css",
-    "static/js/main.c030dfe5.js"
+    "static/css/main.b369560f.css",
+    "static/js/main.89657807.js"
   ]
 }
